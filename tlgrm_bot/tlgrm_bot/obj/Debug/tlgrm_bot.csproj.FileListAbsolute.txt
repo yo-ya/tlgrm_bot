@@ -4,3 +4,5 @@ C:\Users\Yo_Ya\Documents\GitHub\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\tlgrm_bo
 C:\Users\Yo_Ya\Documents\GitHub\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.csprojResolveAssemblyReference.cache
 C:\Users\Yo_Ya\Documents\GitHub\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.exe
 C:\Users\Yo_Ya\Documents\GitHub\tlgrm_bot\tlgrm_bot\tlgrm_bot\obj\Debug\tlgrm_bot.pdb
+C:\Users\Yo_Ya\Documents\GitHub\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yo_Ya\Documents\GitHub\tlgrm_bot\tlgrm_bot\tlgrm_bot\bin\Debug\Newtonsoft.Json.xml
