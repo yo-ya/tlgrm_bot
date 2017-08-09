@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net;               //Use internet
 using System.Threading;
 using Newtonsoft.Json.Linq;
+using System.Text.RegularExpressions;
 
 namespace tlgrm_bot
 {
@@ -90,10 +91,21 @@ namespace tlgrm_bot
             webClient.DownloadString(url);
         }
 
+        public string Udaff()
+        {
+            //WebClient webClient = new WebClient();
+            string g = webClient.DownloadString("http://udaff.com/view_listen/photo/random.html");
+            //string g = "<img src='/image/111/11109.jpg' width='400' height='300' alt='2' border='0' />";
+            Regex regex = new Regex(@"\/image\/\d*.*.jpg");
+            Match match = regex.Match(g);
+            return match.ToString();
+        }
+
         public void SendAnsw(string answ)
         {
             if (answ == "test") { SendMsg(messageFromId, "passed"); }
             if (answ == "да") { SendMsg(messageFromId, "манда!"); }
+            if (answ=="удаф") { SendMsg(messageFromId, "http://udaff.com/"+Udaff()); }
         }
     }
     class Program
